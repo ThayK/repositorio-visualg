@@ -1,0 +1,22 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 03/09/2020
+Var
+// Seção de Declarações das variáveis 
+numeroRecebido : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Digite um numero")
+leia(numeroRecebido)
+
+se (numeroRecebido >= 5) e (numeroRecebido <= 89) entao
+  escreval("O numero digitado esta no intervalo")
+senao
+  escreval("O numero digitado nao esta no intervalo")
+fimse
+
+Fimalgoritmo
